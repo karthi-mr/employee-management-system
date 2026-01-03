@@ -1,3 +1,10 @@
 spring:
   application:
     name: employee-management-system
+  profiles:
+    active: dev
+
+server:
+  port: 8088
+  servlet:
+    context-path: /api/v1/
